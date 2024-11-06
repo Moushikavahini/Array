@@ -1,0 +1,21 @@
+include<stdio.h>
+int main()
+{
+int ticket, x, y, z;
+printf("enter the no of tickets scold in first week :",x);
+scanf("%d",&x);
+printf("\nenter the no of tickets in second week :",y);
+scanf("%d",&y);
+printf("\nenter the no of tickets in third week:",z);
+scanf("%d",&z);
+ticket=x+y+z;
+printf("total no of tickets :\n%d",ticket);
+return 0;
+}
+***********************************************
+output:
+enter the no of tickets scold in first week :40
+enter the no of tickets in second week :50
+enter the no of tickets in third week:60
+total no of tickets :150
+***********************************************
